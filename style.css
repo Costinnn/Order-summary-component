@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+html,
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%)
+}
+
+p{
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+h3{
+    font-weight: 700;
+    color:  hsl(223, 47%, 23%);
+}
+
+h2{
+    font-weight: 900;
+    color:  hsl(223, 47%, 23%);
+    margin: 30px auto;
+}
+
+#main-photo{
+    width: 350px;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+}
+.main-container{
+    background-color: white;
+    width: 350px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.paragraph{
+    text-align: center;
+    width: 250px;
+    margin-top: 0;
+}
+
+.plan-container{
+    background-color: hsl(225, 100%, 98%);
+    width: 310px;
+    border-radius: 20px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.price-plan{
+    margin: 0 0;
+}
+
+.price{
+    margin: 0 0;
+}
+
+.change-plan{
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.change-plan:hover{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+#payment-button{
+    width: 310px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 2px 15px rgba(56, 41, 224, 0.6);
+    cursor: pointer;
+}
+
+#payment-button:hover{
+    background-color: rgba(56, 41, 224, 0.7);
+}
+
+#cancel-button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: hsl(224, 23%, 55%);
+    width: 310px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Red Hat Display', sans-serif;
+    border-radius: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#cancel-button:hover{
+    color:  hsl(223, 47%, 23%);
+}
